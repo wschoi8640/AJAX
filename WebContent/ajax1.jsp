@@ -8,7 +8,7 @@
 <script src="js/jquery.js"></script>
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript">
-	function check() {
+	function submit() {
 		var oldText = $('#myText').val();
 		$.ajax({
 			type : "POST",
@@ -27,10 +27,10 @@
 </script>
 </head>
 <body>
-	<p>All about wschoi<p>	
+	<p>All about wschoi</p>	
 	<textarea id="myText" rows="3" cols="20">
     </textarea>
 	<br>
-	<button onclick="check();">전송</button>
+	<button onclick="submit();">전송</button>
 </body>
 </html>

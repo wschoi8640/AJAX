@@ -8,4 +8,12 @@
 		<servlet-name>textServlet</servlet-name>
 		<url-pattern>/textServlet</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>JsonBuildAction</servlet-name>
+		<servlet-class>com.wschoi.ajax2.JsonBuildAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JsonBuildAction</servlet-name>
+		<url-pattern>/JsonBuildAction</url-pattern>
+	</servlet-mapping>
 </web-app>
